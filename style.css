@@ -1,0 +1,171 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #4caf50; /* Change this color to the one used in contact.html */
+  padding: 20px 0; /* Adds some padding around the header */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: white; /* Ensures the text in the header stands out against the green background */
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 10px;
+  background-color: #4caf50; /* Matching background color */
+}
+
+nav a {
+  color: wheat;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section and list styles */
+section {
+  margin: 20px 0;
+}
+
+h2 {
+  color: #4caf50; /* Green color for consistency */
+  margin-bottom: 10px;
+}
+
+ul.hobbies {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.hobbies li {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Footer and small screen styles */
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
+/* Header and Navigation Styles */
+header {
+  background-color: #4caf50; /* Green background for the header */
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: white; /* White color for header text */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white; /* White navigation link color */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #333; /* Dark hover color */
+  text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50; /* Green header for the table */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for alternate rows */
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+/* Footer Styles */
+footer {
+  background-color: #4caf50; /* Green background to match header */
+  color: #fff; /* White text for contrast */
+  text-align: center; /* Center-aligns the text */
+  padding: 15px 20px; /* Padding for visual spacing */
+  margin-top: 10px; /* Space between footer and main content */
+  font-size: 0.9rem;
+  border-top: 2px solid #ddd;
+}
+
+footer a {
+  color: #ffdd57; /* Yellow color for email link to stand out */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
