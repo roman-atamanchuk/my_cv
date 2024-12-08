@@ -59,3 +59,30 @@ body {
   margin-top: 20px;
   background-color: black;
 }
+/* cards */
+.ui.card .description {
+  font-style: italic;
+  font-weight: bold;
+  color: wheat !important;
+}
+
+.ui.card .date {
+  color: red;
+}
+.ui.link.cards {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.ui.card .image {
+  height: 300px;
+
+  box-shadow: 2px 2px 12px 2px rgb(29, 20, 59);
+}
+.ui.card {
+  background-color: black !important;
+  text-align: center;
+  box-shadow: none !important;
+}
